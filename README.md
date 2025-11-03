@@ -19,14 +19,14 @@ This set demonstrates practical, real-world SQL skills: selection & filtering, j
 select fname as 'First Name', lname as 'Last Name', Salary as 'Salary'
 from staff
 where salary = 25000;
-
-Exercise 2 — Show all the staff who have a salary greater than 40k, list their first and last names as NAME
-
+```
+### Exercise 2 — Show all the staff who have a salary greater than 40k, list their first and last names as NAME
+```sql
 select (fname + ' ' + lname) as 'Name', Salary as 'Salary'
 from staff
 where salary > 40000;
-
-Exercise 3 — Identify all staff who do not have a salary equal to 25k.
+```
+### Exercise 3 — Identify all staff who do not have a salary equal to 25k.
 
 select (fname + ' ' + lname) as 'Name', Salary as 'Salary'
 from staff
