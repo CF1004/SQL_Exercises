@@ -392,8 +392,9 @@ from rooms
 except
 select patient_rooms.room_id as 'Rooms never occupied by patients'
 from patient_rooms;
-
--- alternative:
+```
+OR
+```sql
 select rooms.room_id as 'Room ID', rooms.room_desc 'Rooms never occupied by patients'
 from rooms
 where rooms.room_id not in (select patient_rooms.room_id from patient_rooms);
