@@ -382,9 +382,9 @@ left join city
   on patient_address.city_id = city.city_id
 left join county
   on patient_address.co_id = county.co_id;
-
-    Note: Tom Redmond has two addresses — he may appear twice in results.
 ```
+    Note: Tom Redmond has two addresses — he may appear twice in results.
+
 ### Exercise 35 — What rooms were never occupied by any patient? Name the rooms.
 ```sql
 select rooms.room_id as 'Rooms never occupied by patients'
