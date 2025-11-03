@@ -124,7 +124,14 @@ inner join dept
   on staff.dept_id = dept.dept_id
 where DOB < '1970-01-01' and dept.dname = 'General Medical Department';
 ```
-(alternate age calc version present in original materials — left out for brevity)
+OR
+```sql
+select (staff.fname + ' ' + staff.lname) as 'Name', dept.dname as 'Department Name', staff.DOB,
+(year (getdate())-year(dob)) as 'Age'
+from staff
+inner join dept
+on staff.dept_id = dept.dept_id
+where DOB < '1970-01-01' and dept.dname = 'General Medical Department';
 ```
 ### Exercise 16 — Who does not work in the General Medical Department? Show the names.
 ```sql
