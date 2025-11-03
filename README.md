@@ -432,7 +432,7 @@ order by 4,1 desc;
 ```
 ### Exercise 38 — Show the patient first and last name as Patient name, their gender, their admission date and medical condition, the room they were located in and the fee that they paid along with the date.
 ```sql
--- Incorrect naive sum shows duplicates; correct approach shown below.
+-- Incorrect: the first query gives inflated totals because of one-to-many relationships.
 
 select patient.patient_id as 'Patient ID', (patient.p_fname + ' ' + patient.p_lname) as 'Patient Name',
        gender.gender_desc as 'Gender', patient_record.addmittion_dt as 'Admission Date', patient_record.medical_condition as 'Medical Condition',
