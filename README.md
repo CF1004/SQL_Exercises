@@ -450,7 +450,8 @@ left join patient_fees
   on patient.patient_id = patient_fees.patient_id
 order by patient_fees.fee desc;
 
--- Better: show total fees per patient:
+-- Better: show total fees per patient.
+
 select patient.patient_id as 'Patient ID', (patient.p_fname + ' ' + patient.p_lname) as 'Patient Name', gender.gender_desc as 'Gender', 
   SUM(patient_fees.fee) as 'Fee'
 from patient
@@ -461,7 +462,8 @@ left join patient_fees
 group by patient.patient_id, patient.p_fname, patient.p_lname, gender.gender_desc
 order by Fee desc;
 
--- Examine tables:
+-- Examine tables.
+
 select * from patient_fees;
 select * from patient;
 
