@@ -487,16 +487,9 @@ select (staff.fname + ' ' + staff.lname) as 'Employee Name', staff.salary as 'Cu
 from staff 
 where salary >= 40000;
 ```
-Conclusions
-
-This collection shows practical, hands-on SQL ability across a broad spectrum of tasks:
-
-    Data selection & filtering — precise retrieval using WHERE and pattern matching.
-
-    Aggregations & calculations — sums, averages, min/max, groupings and derived columns.
-
-    Joins & relationships — combining tables for enriched output and resolving one-to-many pitfalls.
-
-    Date handling & business logic — DOB filters, date ranges, and formatted outputs.
-
-    Troubleshooting — identifying duplication issues, using DISTINCT / grouping and rewriting queries for correct aggregation.
+## 🧠 Conclusions
+- **Data Selection & Filtering** — precise retrieval using `WHERE`, pattern matching, and logical operators.  
+- **Aggregations & Calculations** — sums, averages, min/max, grouping, and computed columns.  
+- **Joins & Relationships** — combining data across multiple tables and resolving one-to-many duplication issues.  
+- **Date Handling & Business Logic** — working with `DATEDIFF`, date filters, and formatted outputs.  
+- **Troubleshooting & Query Refinement** — identifying duplicates, optimizing joins, and rewriting queries for accurate aggregation. 
