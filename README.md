@@ -167,7 +167,7 @@ inner join expenses
 group by (staff.fname + ' ' + staff.lname), (staff_add.Address1 + ' ' + staff_add.Address2)
 order by 'Total Expenses' desc;
 ```
-    Note: Tom Redmond was given 2 addresses which is why he can appear twice in totals if not de-duplicated.
+    Note: Tom Redmond was given 2 addresses which is why he can appear twice in Total Expenses
 
 ### Exercise 19 — Sum the expenses by department
 ```sql
