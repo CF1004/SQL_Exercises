@@ -351,7 +351,7 @@ left join staff_qual
   on staff.staff_id = staff_qual.Staff_id
 left join qualifications
   on staff_qual.qual_id = qualifications.qual_id;
-
+```
 ### Exercise 33 — List all the staff names (first and last as Name), their roles descriptions, their department description.
 ```sql
 select (staff.fname + ' ' + staff.lname) as 'Name', job_titles.job_title_desc as 'Role', dept.dname as 'Department'
