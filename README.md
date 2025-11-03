@@ -418,8 +418,9 @@ inner join patient_record
   on patient.patient_id = patient_record.patient_id
 where patient_record.Smoker = 'Y'
 GROUP BY patient.p_fname, patient.p_lname, gender.gender_desc, patient.DOB;
-
--- alternate showing all blood pressure readings:
+```
+OR
+```sql
 select (patient.p_fname + ' ' + patient.p_lname) as 'Patient Name', gender.gender_desc as 'Gender', patient.DOB as 'Date of Birth', patient_record.blood_pressure as 'Blood Pressure'
 from patient
 inner join gender
