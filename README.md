@@ -161,7 +161,7 @@ group by (staff.fname + ' ' + staff.lname), (staff_add.Address1 + ' ' + staff_ad
 order by 'Total Expenses' desc;
 ```
     Note: Tom Redmond was given 2 addresses which is why he can appear twice in totals if not de-duplicated.
-```
+
 ### Exercise 19 — Sum the expenses by department
 ```sql
 select sum(expenses.Amount) as 'Total Expenses', dept.dname as 'Department Name'
