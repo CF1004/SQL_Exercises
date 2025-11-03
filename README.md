@@ -113,7 +113,7 @@ inner join dept
   on staff.dept_id = dept.dept_id
 where dept.dname = 'General Medical Department' and salary > 50000;
 ```
-### Exercise 15 — Who is born before 1.1.1970 in the general medical department? Name, department name and age.
+### Exercise 15 — Who is born before 01.01.1970 in the general medical department? Name, department name and age.
 ```sql
 select (staff.fname + ' ' + staff.lname) as 'Name',
        dept.dname as 'Department Name',
