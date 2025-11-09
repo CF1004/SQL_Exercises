@@ -1,0 +1,36 @@
+﻿staff_id,job_title_id,fname,lname,DOB,gender_id,phone,email,dept_id,salary
+1,1,John,"Walsh                                             ",1958-01-01,M,087-1111111,john@yahoo.com,GENMED,85000.00
+2,2,Joe,"Fitzpatrick                                       ",1968-01-06,M,861234567,,GENMED,55000.00
+3,4,Barry,"McDermott                                         ",1978-01-01,M,851234567,,ADMIN,70000.00
+4,8,Kevin,"Corcoran                                          ",1956-01-05,M,831234567,kevin@hospital.com,GENMED,105000.00
+5,8,Ciaran,"Comerford                                         ",1958-01-01,M,871234566,ciaran@hospital.com,GENMED,101000.00
+6,2,Tom,"Redmond                                           ",1993-01-01,M,861234566,,AE,22000.00
+7,2,John,"Walsh                                             ",1991-01-10,M,851234566,,GENMED,24000.00
+8,2,Paul,"Williams                                          ",1986-01-01,M,831234566,,GENMED,30000.00
+9,6,Darragh,"Kelly                                             ",1995-01-11,M,871234565,,GENMED,25000.00
+10,6,Donnachda,"Williams                                          ",1990-01-12,M,861234565,,GENMED,25000.00
+11,1,Aiden,"Grant                                             ",1956-01-02,M,851234565,,AE,85000.00
+12,2,Patrick,"Grant                                             ",1984-01-03,M,831234565,,GENMED,40000.00
+13,1,Tom,"Boyle                                             ",1968-01-04,M,871234564,,GENMED,70000.00
+14,10,David,"Corcoran                                          ",1955-01-05,M,861234564,david@hospital.com,ADMIN,100000.00
+15,3,Larry,"Fitzgerald                                        ",1968-01-06,M,851234564,,AE,35000.00
+16,5,John,"Stephenson                                        ",1969-01-07,M,831234564,,GENMED,60000.00
+17,1,John,"Evans                                             ",1972-01-08,M,871234563,,GENMED,75000.00
+18,2,Anne,"James                                             ",1975-01-09,F,861234563,,GENMED,42000.00
+19,3,Sarah,"Barry                                             ",1974-01-10,F,851234563,,ADMIN,35000.00
+20,1,Caitlin,"O Carroll                                         ",1966-01-10,F,831234563,caitlin@hospital.com,GENMED,75000.00
+21,4,Catherine,"O Sullivab                                        ",1967-01-06,F,871234562,,GENMED,55000.00
+22,2,Mary,"Donoghue                                          ",1969-01-06,F,861234562,,AE,45000.00
+23,1,Sarah,"Buckley                                           ",1959-01-07,F,851234562,,GENMED,102000.00
+24,1,Zoe,"Brennar                                           ",1962-01-08,F,831234562,,GENMED,100000.00
+25,2,Patricia,"Casey                                             ",1972-01-03,F,871234561,,GENMED,40000.00
+26,2,Pam,"Fenton                                            ",1977-01-05,F,861234561,,GENMED,40000.00
+27,2,Terry,"Cahill                                            ",1981-01-11,F,851234561,,GENMED,35000.00
+28,5,Jean,"Fitzsimons                                        ",1970-01-11,F,831234561,,GENMED,55000.00
+29,2,Lucy,"Moore                                             ",1989-01-11,F,871234560,,GENMED,22000.00
+30,6,Bernie,"O Dea                                             ",1976-01-04,F,861234560,,GENMED,25000.00
+31,7,Mary,"Malone                                            ",1958-01-04,F,851234560,,GENMED,20000.00
+32,7,Bernie,"Martin                                            ",1958-01-04,F,831234560,,GENMED,20000.00
+33,9,Patricia,"Casey                                             ",1958-01-04,F,871234569,,GENMED,NULL
+34,6,Carol,"Cummins                                           ",1964-01-04,F,861234569,,GENMED,25000.00
+35,6,Kate,"Lynch                                             ",1962-01-03,F,861234569,,GENMED,25000.00

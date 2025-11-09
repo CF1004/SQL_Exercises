@@ -1,0 +1,5 @@
+﻿pay_method_id,pay_method_desc
+1,Cash
+2,Visa
+3,Cheque
+4,Master Card
