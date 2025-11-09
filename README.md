@@ -518,10 +518,10 @@ GO
 - Run the SQL script [hospital_admissions_tables.sql](./hospital_admissions_tables.sql) to create all the tables in the correct order.
 
 ## 4. Import the CSV Data
-- Right-click on your new database → Tasks → Import Flat File...
-- Select each .csv file (provided in the data/ folder of this repo):
+- Right-click on your new database → Tasks → Import Flat File.
+- Browse and select a CSV file from the `data/` folder in this repo: [link to folder].
 - Confirm column mappings → Finish.
-- Repeat for each table.
+- Repeat for each CSV file to populate all tables.
 
 ## 5. Run the Exercises
 Once data is loaded:
