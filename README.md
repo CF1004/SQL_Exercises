@@ -497,6 +497,40 @@ select (staff.fname + ' ' + staff.lname) as 'Employee Name', staff.salary as 'Cu
 from staff 
 where salary >= 40000;
 ```
+
+## How to Recreate This Database Locally
+If you want to run and explore these SQL exercises yourself, here’s how to set up the Hospital_Admissions_2020 database:
+
+1. Install SQL Server + SSMS
+- Download and install SQL Server Express (free) and SQL Server Management Studio (SSMS) from Microsoft:
+- SQL Server Express
+- SSMS
+- Launch SSMS and connect to your local instance.
+
+2. Create the Database
+```sql
+CREATE DATABASE Hospital_Admissions_2020;
+GO
+USE Hospital_Admissions_2020;
+GO
+```
+3. Create the Tables
+- In SSMS, open a New Query window.
+- Copy and paste the SQL code from the file (hospital_admissions.sql)
+- Execute from top to bottom, one after the other, to create all the tables
+
+4. Import the CSV Data
+- Right-click on your new database → Tasks → Import Flat File...
+- Select each .csv file (provided in the data/ folder of this repo):
+- Confirm column mappings → Finish.
+- Repeat for each table.
+
+5. Run the Exercises
+Once data is loaded:
+- Open a New Query window in SSMS.
+- Copy any of the SQL snippets from the README (Exercises 1–41).
+- Execute and explore the results.
+
 ## 🧠 Conclusions
 - **Data Selection & Filtering** — precise retrieval using `WHERE`, pattern matching, and logical operators.  
 - **Aggregations & Calculations** — sums, averages, min/max, grouping, and computed columns.  
