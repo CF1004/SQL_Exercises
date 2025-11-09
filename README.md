@@ -519,7 +519,7 @@ GO
 
 ## 4. Import the CSV Data
 - Right-click on your new database → Tasks → Import Flat File.
-- Browse and select a CSV file from the `data/` folder in this repo: [link to folder].
+- Download the CSV files from the `data/` folder in this repository.
 - Confirm column mappings → Finish.
 - Repeat for each CSV file to populate all tables.
 
