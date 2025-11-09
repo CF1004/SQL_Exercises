@@ -8,7 +8,6 @@ This set demonstrates practical, real-world SQL skills: selection & filtering, j
 ## ⚙️ Tools & Prerequisites
 - **SQL / T-SQL (SQL Server)** — queries use `DATEDIFF`, `GETDATE()`, `FORMAT()` and T-SQL idioms.  
 - **Database:** This README assumes the `Hospital Admissions 2020` schema and sample data exist (tables like `staff`, `dept`, `expenses`, `patient`, `rooms`, `patient_rooms`, etc.).  
-- If you want the schema / sample data or a runnable `.bak` / `.sql`, I can add it to the repo.
 
 ---
 
