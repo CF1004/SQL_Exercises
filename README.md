@@ -514,9 +514,8 @@ USE Hospital_Admissions_2020;
 GO
 ```
 ## 3. Create the Tables
-- In SSMS, open a New Query window.
-- Copy and paste the SQL code from the file (hospital_admissions.sql)
-- Execute from top to bottom, one after the other, to create all the tables
+- Open SSMS and create a New Query.
+- Run the SQL script [hospital_admissions_tables.sql](./hospital_admissions_tables.sql) to create all the tables in the correct order.
 
 ## 4. Import the CSV Data
 - Right-click on your new database → Tasks → Import Flat File...
